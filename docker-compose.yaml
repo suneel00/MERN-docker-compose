@@ -4,7 +4,7 @@ services:
     ports:
       - "5050:5050" 
     networks:
-      - mern_network
+      - mern_networ
     environment:
       MONGO_URI: mongodb://mongo:27017/mydatabase  
     depends_on:
